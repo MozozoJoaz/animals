@@ -8,37 +8,37 @@ import Header from "./Header.vue";
 const animaux = reactive([
   {
     nom: "Lion",
-    image: "./src/assets/doggo.jpg",
+    image: "@/assets/doggo.jpg",
     pays_origine: "Afrique",
     famille: "Félidés",
   },
   {
     nom: "Panda géant",
-    image: "./src/assets/chien.jpeg",
+    image: "@/assets/chien.jpeg",
     pays_origine: "Chine",
     famille: "Ursidés",
   },
   {
     nom: "Kangourou",
-    image: "./src/assets/lama.png",
+    image: "@/assets/lama.png",
     pays_origine: "Australie",
     famille: "Macropodidés",
   },
   {
     nom: "Aigle royal",
-    image: "./src/assets/canard.png",
+    image: " @/assets/canard.png",
     pays_origine: "Hémisphère nord",
     famille: "Accipitridés",
   },
   {
     nom: "Poisson-clown",
-    image: "./src/assets/bird.png",
+    image: "@/assets/bird.png",
     pays_origine: "Océan Indien et Pacifique",
     famille: "Pomacentridés",
   },
   {
     nom: "Cobra royal",
-    image: "./src/assets/ntfound.jpeg",
+    image: "@/assets/ntfound.jpeg",
     pays_origine: "Asie du Sud et du Sud-Est",
     famille: "Élapidés",
   },
