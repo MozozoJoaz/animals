@@ -8,7 +8,7 @@ import Header from "./Header.vue";
 const animaux = reactive([
   {
     nom: "Lion",
-    image: "@/assets/doggo.jpg",
+    image: require("@/assets/doggo.jpg"),
     pays_origine: "Afrique",
     famille: "Félidés",
   },
@@ -32,7 +32,7 @@ const animaux = reactive([
   },
   {
     nom: "Poisson-clown",
-    image: "@/assets/bird.png",
+    image: "/bird.png",
     pays_origine: "Océan Indien et Pacifique",
     famille: "Pomacentridés",
   },
